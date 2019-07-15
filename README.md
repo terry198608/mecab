@@ -39,7 +39,7 @@ Download the installer from this url: https://mecab.googlecode.com/files/mecab-0
 Once you get mecab to start, type some Japanese and make sure you get an appropriate response.  
 
   ```
-  ~$ mecab`  
+  ~$ mecab  
   `やった`  
   ``やっ    動詞,自立,*,*,五段・ラ行,連用タ接続,やる,ヤッ,ヤッ`  
   `た      助動詞,*,*,*,特殊・タ,基本形,た,タ,タ`  
