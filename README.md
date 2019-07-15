@@ -15,6 +15,7 @@ First pull in MeCab.
   tar zxfv mecab-0.996.tar.gz  
   cd mecab-0.996`  
   ./configure --with-charset=utf8 --enable-utf8-only
+  make && make install  
   ```  
     
 Then get the dictionary file.  
@@ -23,6 +24,7 @@ Then get the dictionary file.
   `tar zxfv mecab-ipadic-2.7.0-20070801.tar.gz`  
   `cd mecab-ipadic-2.7.0-20070801`  
   `./configure --with-charset=utf8  
+  make && make install  
   ```
   
 **Mac OS X**  
