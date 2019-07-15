@@ -10,10 +10,12 @@ Linux users can more than likely find MeCab in their distro repositories. Simply
     
 If that doesn't work, you can download the source and build it yourself. Note that this will require the package 'build-essential'.  
 First pull in MeCab.  
-  ```wget https://mecab.googlecode.com/files/mecab-0.996.tar.gz  
+  ```
+  wget https://mecab.googlecode.com/files/mecab-0.996.tar.gz  
   tar zxfv mecab-0.996.tar.gz  
   cd mecab-0.996`  
-  ./configure --with-charset=utf8 --enable-utf8-only```  
+  ./configure --with-charset=utf8 --enable-utf8-only
+  ```  
     
 Then get the dictionary file.  
   `wget https://mecab.googlecode.com/files/mecab-ipadic-2.7.0-20070801.tar.gz`  
