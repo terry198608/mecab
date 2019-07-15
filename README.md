@@ -1,0 +1,3 @@
+mecab Documentation
+
+Installation
